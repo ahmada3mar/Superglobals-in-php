@@ -1,0 +1,30 @@
+.questionPage{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 2rem;
+    margin: 0 2rem;
+}
+
+.heder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.qNumCon{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    p{
+        text-align: center;
+        padding: 1rem;
+        // height: 2rem;
+        // width: .8rem;
+        margin: .6rem;
+        border-radius: 5px;
+        background-color: #bbb;
+
+    }
+    .current{
+        background-color: gray;
+    }
+}
